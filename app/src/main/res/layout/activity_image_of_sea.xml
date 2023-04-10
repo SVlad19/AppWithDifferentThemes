@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ImageOfSeaActivity"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/tvHeader"
+        style="@style/MyTextStyle"
+        android:layout_width="406dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:background="@color/backgroundHeader"
+        android:text="@string/ImageOfTheSea"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivFirstImage"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:src="@drawable/first_sea"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.071"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.396" />
+
+    <ImageView
+        android:id="@+id/ivSecondImage"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_marginBottom="219dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnBack"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.928"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.983"
+        app:srcCompat="@drawable/second_sea" />
+
+    <ImageView
+        android:id="@+id/ivThirdImage"
+        android:layout_width="wrap_content"
+        android:layout_height="170dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvHeader"
+        app:layout_constraintVertical_bias="0.568"
+        app:srcCompat="@drawable/third_sea" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="85dp"
+        android:backgroundTint="@color/ButtonColor"
+        android:text="@string/btnBack"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivThirdImage"
+        app:layout_constraintVertical_bias="0.813" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

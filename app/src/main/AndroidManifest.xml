@@ -12,6 +12,15 @@
         android:theme="@style/Theme.Lab42ForOOP"
         tools:targetApi="31">
         <activity
+            android:name=".ImageOfEmotionsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ImageOfSeaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CitationsActivity"
+            android:exported="false" />
+        <activity
             android:name=".OmenActivity"
             android:exported="false" />
         <activity

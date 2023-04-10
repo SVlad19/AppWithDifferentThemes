@@ -7,11 +7,16 @@
     <string name="Sea">Image of the sea</string>
     <string name="Emotions">Image of the emotions</string>
     <string name="btnBack">Back</string>
+    <string name="ImageOfTheSea">Image of the Sea</string>
+    <string name="ImageOfTheEmotions">Image of the Emotions</string>
     <string name="FirstJoke">What happens when a strawberry gets run over crossing the street? Traffic jam.</string>
     <string name="SecondJoke">What did the left eye say to the right eye? Between you and me, something smells.</string>
     <string name="ThirdJoke">Where do young trees go to learn? Elementree school.</string>
     <string name="FirstOmen">Don`t whistle in your house, you`ll have no money!</string>
     <string name="SecondOmen">Breaking the dishes is a good omen, they say it`s for luck.</string>
     <string name="ThirdOmen">To cut hair during the growing moon is for good luck.</string>
+    <string name="FirstCitation">Wise men speak because they have something to say; fools because they have to say something.</string>
+    <string name="SecondCitation">Chop your own wood and it will warm you twice.</string>
+    <string name="ThirdCitation">Work hard to get what you like, otherwise you`ll be forced to just like what you get.</string>
 
 </resources>
