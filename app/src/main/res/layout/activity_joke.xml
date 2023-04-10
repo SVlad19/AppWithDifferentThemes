@@ -8,7 +8,7 @@
     tools:context=".JokeActivity">
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/tvHeader"
         style="@style/MyTextStyle"
         android:layout_width="402dp"
         android:layout_height="wrap_content"
@@ -21,7 +21,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/tvFirstJoke"
         style="@style/MyBorderedText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -30,10 +30,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintTop_toBottomOf="@+id/tvHeader" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/tvSecondJoke"
         style="@style/MyBorderedText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -42,10 +42,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.07"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+        app:layout_constraintTop_toBottomOf="@+id/tvFirstJoke" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/tvThirdJoke"
         style="@style/MyBorderedText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -54,10 +54,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.07"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+        app:layout_constraintTop_toBottomOf="@+id/tvSecondJoke" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnBack"
         android:layout_width="150dp"
         android:layout_height="50dp"
         android:layout_marginTop="64dp"
@@ -65,5 +65,5 @@
         android:text="@string/btnBack"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+        app:layout_constraintTop_toBottomOf="@+id/tvThirdJoke" />
 </androidx.constraintlayout.widget.ConstraintLayout>

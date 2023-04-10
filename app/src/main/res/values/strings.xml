@@ -4,11 +4,12 @@
     <string name="Jokes">Jokes</string>
     <string name="Omens">Omens</string>
     <string name="Citations">Citations</string>
-    <string name="Sea">Image of the sea</string>
+    <string name="Sea">Sea</string>
     <string name="Emotions">Image of the emotions</string>
+    <string name="Author">About the Author</string>
     <string name="btnBack">Back</string>
     <string name="ImageOfTheSea">Image of the Sea</string>
-    <string name="ImageOfTheEmotions">Image of the Emotions</string>
+    <string name="ImageOfTheEmotions">Emotions</string>
     <string name="FirstJoke">What happens when a strawberry gets run over crossing the street? Traffic jam.</string>
     <string name="SecondJoke">What did the left eye say to the right eye? Between you and me, something smells.</string>
     <string name="ThirdJoke">Where do young trees go to learn? Elementree school.</string>
@@ -18,5 +19,6 @@
     <string name="FirstCitation">Wise men speak because they have something to say; fools because they have to say something.</string>
     <string name="SecondCitation">Chop your own wood and it will warm you twice.</string>
     <string name="ThirdCitation">Work hard to get what you like, otherwise you`ll be forced to just like what you get.</string>
+    <string name="InfoAboutAuthor">Hi! I`m a student of the University of Chemistry and Technology. Now I`am 3rd year student. For this project I spent about 3 hours, more time I spent looking for photo and omens or citations. Thank you for your attention to my mini-project! </string>
 
 </resources>

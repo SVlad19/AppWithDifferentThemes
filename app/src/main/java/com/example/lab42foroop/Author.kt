@@ -2,14 +2,13 @@ package com.example.lab42foroop
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.lab42foroop.databinding.ActivityCitationsBinding
-import com.example.lab42foroop.databinding.ActivityImageBinding
+import com.example.lab42foroop.databinding.ActivityAuthorBinding
 
-class CitationsActivity : AppCompatActivity() {
-    private lateinit var binding : ActivityCitationsBinding
+class Author : AppCompatActivity() {
+    private lateinit var binding:ActivityAuthorBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityCitationsBinding.inflate(layoutInflater)
+        binding =ActivityAuthorBinding.inflate(layoutInflater)
 
         setContentView(binding.root)
 

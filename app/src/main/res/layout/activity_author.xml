@@ -4,9 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".OmenActivity"
+    tools:context=".Author"
     android:background="@drawable/background">
-
     <TextView
         android:id="@+id/tvHeader"
         style="@style/MyTextStyle"
@@ -14,47 +13,23 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="124dp"
         android:background="@color/backgroundHeader"
-        android:text="@string/Omens"
+        android:text="@string/Author"
         android:textSize="30dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/tvFirstOmen"
+        android:id="@+id/tvFirstCitation"
         style="@style/MyBorderedText"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="68dp"
-        android:text="@string/FirstOmen"
+        android:layout_width="266dp"
+        android:layout_height="256dp"
+        android:layout_marginTop="100dp"
+        android:text="@string/InfoAboutAuthor"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvHeader" />
-
-    <TextView
-        android:id="@+id/tvSecondOmen"
-        style="@style/MyBorderedText"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="48dp"
-        android:text="@string/SecondOmen"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.07"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvFirstOmen" />
-
-    <TextView
-        android:id="@+id/tvThirdOmen"
-        style="@style/MyBorderedText"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="48dp"
-        android:text="@string/ThirdOmen"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.07"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvSecondOmen" />
 
     <Button
         android:id="@+id/btnBack"
@@ -65,5 +40,6 @@
         android:text="@string/btnBack"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvThirdOmen" />
+        app:layout_constraintTop_toBottomOf="@+id/tvFirstCitation" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

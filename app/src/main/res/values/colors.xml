@@ -12,5 +12,6 @@
     <color name="borderForImage">#EBD6D6D6</color>
     <color name="TextColor">#EB467069</color>
     <color name="ButtonColor">#EB66817D</color>
+    <color name="AuthorColor">#92FFFFFF</color>
 
 </resources>

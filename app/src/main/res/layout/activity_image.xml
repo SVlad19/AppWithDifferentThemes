@@ -12,13 +12,13 @@
         style="@style/MyTextStyle"
         android:layout_width="406dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="68dp"
         android:background="@color/backgroundHeader"
+        android:rotation="-35"
         android:text="@string/Image"
-        android:textSize="30dp"
+        android:textSize="60sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
@@ -28,46 +28,45 @@
         android:src="@drawable/first_city"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.071"
+        app:layout_constraintHorizontal_bias="0.125"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.396" />
+        app:layout_constraintVertical_bias="0.499" />
 
     <ImageView
         android:id="@+id/ivSecondImage"
         android:layout_width="170dp"
         android:layout_height="170dp"
-        android:layout_marginBottom="219dp"
-        app:layout_constraintBottom_toTopOf="@+id/btnBack"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.928"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.983"
+        app:layout_constraintVertical_bias="0.258"
         app:srcCompat="@drawable/second_city" />
 
     <ImageView
         android:id="@+id/ivThirdImage"
-        android:layout_width="170dp"
-        android:layout_height="170dp"
+        android:layout_width="176dp"
+        android:layout_height="183dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.953"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvHeader"
-        app:layout_constraintVertical_bias="0.568"
+        app:layout_constraintVertical_bias="0.605"
         app:srcCompat="@drawable/third_city" />
 
     <Button
         android:id="@+id/btnBack"
         android:layout_width="150dp"
         android:layout_height="50dp"
-        android:layout_marginBottom="85dp"
         android:backgroundTint="@color/ButtonColor"
         android:text="@string/btnBack"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ivThirdImage"
-        app:layout_constraintVertical_bias="0.813" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.893" />
 </androidx.constraintlayout.widget.ConstraintLayout>
